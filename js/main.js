@@ -68,6 +68,16 @@
     });
 
 
+    // Chatbot button attempt
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 300) {
+            $('.chat-bot').fadeIn('slow');
+        } else {
+            $('.chat-bot').fadeOut('slow');
+        }
+    });
+
+
     // Facts counter
     $('[data-toggle="counter-up"]').counterUp({
         delay: 10,

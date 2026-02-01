@@ -46,7 +46,7 @@
         <div class="container-xxl position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
                 <a href="index.html" class="navbar-brand p-0">
-                    <h1 class="text-logo m-0"><i class="fa fa-pepper-hot me-3"></i>Chilaguas</h1>
+                    <h1 class="text-logo m-0"><i class="fa fa-pepper-hot me-3"></i>ChilAguas</h1>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
@@ -59,7 +59,7 @@
                         <a href="about.html" class="nav-item nav-link">Nosotros</a>
                         <a href="blog.html" class="nav-item nav-link">Blog</a>
                     </div>
-                    <a href="" class="btn btn-primary py-2 px-4">Pedir en Línea</a>
+                    <a href="soon.html" class="btn btn-primary py-2 px-4">Pedir en Línea</a>
                 </div>
             </nav>
 
@@ -72,7 +72,7 @@
                         <div class="col-lg-6 text-center text-lg-start">
                             <h1 class="display-3 text-white animated slideInLeft">¡Nuevo Producto!<br>Salsas Sabrosas</h1>
                             <p class="text-white animated slideInLeft mb-3 pb-2 fst-italic">Chilaguas - "Más que sabor, una experiencia que vive en tu boca."</p>
-                            <a href="#tabs" class="btn btn-spec py-sm-3 px-sm-5 me-3 animated slideInLeft">Prúebalas!</a>
+                            <a href="#platillos" class="btn btn-spec py-sm-3 px-sm-5 me-3 animated slideInLeft">Prúebalas!</a>
                         </div>
                     </div>
                 </div>
@@ -84,8 +84,8 @@
         <div class="container-xxl py-5">
             <div class="container">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Platillos</h5>
-                    <h1 class="mb-5">Experimenta nuevos sabores</h1>
+                    <h5 class="section-title ff-secondary text-center text-primary fw-normal" id="platillos">Platillos</h5>
+                    <h1 class="mb-5">Experimente con Nuevos Sabores</h1>
                 </div>
                 <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
                     <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
@@ -121,29 +121,29 @@
                     <div class="tab-content">
                         <div id="tab-1" class="tab-pane fade show p-0 active">
                             <div class="row g-4">
-                                <div class="col-lg-6">
+                                <div class="col-lg-6 tab-content-spec">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/salsa-roja.png" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Slasa Picante Roja</span>
                                                 <span class="text-primary">Próximamente</span>
                                             </h5>
-                                            <small class="fst-italic">Imagen Ilustrativa. No es el producto real.</small>
+                                            <small class="fst-italic">Imagen Ilustrativa. No es el producto real.</small><br>
                                         </div>
                                     </div>
+                                    <img class="flex-shrink-0 img-fluid-spec rounded-pill" src="img/salsa-roja.png" alt="" style="width: 400px;">
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/salsa-verde.png" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Salsa Picante Verde</span>
                                                 <span class="text-primary">Próximamente</span>
                                             </h5>
-                                            <small class="fst-italic">Imagen Ilustrativa. No es el producto real.</small>
+                                            <small class="fst-italic">Imagen Ilustrativa. No es el producto real.</small><br>
                                         </div>
                                     </div>
+                                    <img class="flex-shrink-0 img-fluid-spec rounded-pill" src="img/salsa-verde.png" alt="" style="width: 400px;">
                                 </div>
                             </div>
                         </div>
@@ -266,9 +266,10 @@
                 <div class="row g-5">
                     <div class="col-lg-3 col-md-6">
                         <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Compañia</h4>
-                        <a class="btn btn-link" href="">Sobre Nosotros</a>
-                        <a class="btn btn-link" href="">Política de Privacidad</a>
-                        <a class="btn btn-link" href="">Terminos & Condiciones</a>
+                        <a class="btn btn-link" href="about.html">Sobre Nosotros</a>
+                        <a class="btn btn-link" href="soon.html">Política de Privacidad</a>
+                        <a class="btn btn-link" href="soon.html">Terminos & Condiciones</a>
+                        <a class="btn btn-link" href="map.html">Mapa de Sitio</a>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Contacto</h4>
@@ -279,15 +280,15 @@
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/chilaguas"><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Horario</h4>
                         <h5 class="text-light fw-normal">Lunes - Viernes</h5>
-                        <p>09:00 AM - 09:00 PM</p>
-                        <h5 class="text-light fw-normal">Sábado</h5>
-                        <p>11:00 AM - 05:00 PM</p>
+                        <p>02:00 PM - 09:00 PM</p>
+                        <h5 class="text-light fw-normal">Sábados</h5>
+                        <p>09:00 AM - 12:00 PM</p>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Newsletter</h4>
@@ -302,18 +303,16 @@
             <div class="container">
                 <div class="copyright">
                     <div class="row">
-                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            &copy; <a class="border-bottom" href="#">Your Site Name</a>, Todos los derechos reservados. 
-							
-							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        <div class="col-md-8 text-center text-md-start mb-3 mb-md-0">
+                            2026 &copy;<a class="border-bottom" href="https://chilaguas.lat">Chilaguas.lat</a> de Empresaurios. Todos los derechos reservados.
 							Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a><br>
                             Distributed By <a class="border-bottom" href="https://themewagon.com" target="_blank">ThemeWagon</a>
                         </div>
-                        <div class="col-md-6 text-center text-md-end">
+                        <div class="col-md-4 text-center text-md-end">
                             <div class="footer-menu">
                                 <a href="index.html">Inicio</a>
-                                <a href="">Cookies</a>
-                                <a href="">FQA</a>
+                                <a href="soon.html">Cookies</a>
+                                <a href="soon.html">FQA</a>
                             </div>
                         </div>
                     </div>
