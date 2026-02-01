@@ -3086,10 +3086,30 @@ fieldset:disabled .btn {
     border-color: #FF914c
 }
 
+.btn-spec {
+    color: #000;
+    background-color: #ff4c4c;
+    border-color: #ffffff
+}
+
 .btn-primary:hover {
     color: #000;
     background-color: #843300;
     border-color: #FFFFFF
+}
+
+.btn-spec:hover {
+    color: #000;
+    background-color: #840000;
+    border-color: #ff4c4c
+}
+
+.btn-check:focus+.btn-spec,
+.btn-spec:focus {
+    color: #000;
+    background-color: #840000;
+    border-color: #FFFFFF;
+    box-shadow: 0 0 0 .25rem rgb(132, 0, 0)
 }
 
 .btn-check:focus+.btn-primary,
@@ -5408,6 +5428,13 @@ fieldset:disabled .btn {
 .progress-bar-striped {
     background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
     background-size: 1rem 1rem
+}
+
+.no-anim {
+    animation: none !important;
+    -webkit-animation: none !important;
+    transform: none !important;
+    -webkit-transform: none !important;
 }
 
 .progress-bar-animated {

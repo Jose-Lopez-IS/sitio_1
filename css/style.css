@@ -173,10 +173,11 @@
 /*
     Original Fading: rgba(15, 23, 43, 0.9)
     Current: #55c8c9 and #FFB8BF
+    Secondary fading: rgba(60, 22, 199, 0.8)
 */
 
 .hero-header {
-    background: linear-gradient(rgba(85, 200, 201, 0.8), rgba(255, 184, 191, 0.8)), url(../img/bg-hero.jpeg);
+    background: linear-gradient(rgba(84, 200, 201, 0.8), rgba(255, 184, 191, 0.8)), url(../img/bg-hero.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -186,10 +187,30 @@
     animation: imgRotate 50s linear infinite;
 }
 
+.hero-special {
+    background: linear-gradient(rgba(60, 22, 199, 0.8), rgba(84, 200, 201, 0.8)), url(../img/bg-hero.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-special img {
+    animation: imgBump 5s ease-in-out infinite;
+}
+
 @keyframes imgRotate { 
     100% { 
         transform: rotate(360deg); 
     } 
+}
+
+@keyframes imgBump {
+    0%, 100% {
+        transform: scale(0.95);
+    }
+    50% {
+        transform: scale(1.05);
+    }
 }
 
 .breadcrumb-item + .breadcrumb-item::before {
@@ -261,7 +282,7 @@
     position: relative;
     height: 100%;
     min-height: 500px;
-    background: linear-gradient(rgba(15, 23, 43, .1), rgba(15, 23, 43, .1)), url(../img/video.jpg);
+    background: linear-gradient(rgba(15, 23, 43, .1), rgba(15, 23, 43, .1)), url(../img/video.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
