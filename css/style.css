@@ -6,11 +6,17 @@
     #FF914c - Testing New Orange
     #843300 - Testing Dark Orange
     #292929 - Testing Grey
+
+    ----Spec----
+    #D2FF98 - Light Green - #46FF1E
+    #9EC955 - Dark Green - #1EAA00
+    #0384DF - Blue
 */
 :root {
     --primary: #FF914c;
     --light: #F1F8FF;
     --dark: #292929;
+    --tertiary: #1EAA00;
 }
 
 .text-logo {
@@ -122,7 +128,6 @@
     color: var(--primary) !important;
 }
 
-
 .navbar-dark .navbar-brand img {
     max-height: 60px;
     transition: .5s;
@@ -222,7 +227,7 @@
 }
 
 .hero-special {
-    background: linear-gradient(rgba(60, 22, 199, 0.8), rgba(84, 200, 201, 0.8)), url(../img/bg-hero.jpeg);
+    background: linear-gradient(rgba(158, 201, 85, 0.8), rgba(3, 132, 223, 0.8)), url(../img/promo/bg-hero-spec.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -236,6 +241,18 @@
     max-width: 100%;
     height: auto;
     animation: imgBumpTiny 5s ease-in-out infinite;
+}
+
+.img-fluid-promo {
+    max-width: 105%;
+    height: auto;
+    animation: imgBumpTiny 3s ease-in-out infinite;
+}
+
+.img-fluid-small {
+    max-width: 99%;
+    height: auto;
+    animation: imgBumpTiny 2s ease-in-out infinite;
 }
 
 @keyframes imgRotate { 
@@ -300,7 +317,6 @@
     display: none;
 }
 
-
 /*** Service ***/
 .service-item {
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
@@ -322,7 +338,7 @@
 
 /*** Food Menu ***/
 .nav-pills .nav-item .active {
-    border-bottom: 2px solid var(--primary);
+    border-bottom: 2px solid var(--tertiary);
 }
 
 

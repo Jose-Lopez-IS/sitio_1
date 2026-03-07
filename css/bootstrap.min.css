@@ -3088,7 +3088,7 @@ fieldset:disabled .btn {
 
 .btn-spec {
     color: #000;
-    background-color: #ff4c4c;
+    background-color: #1eaa00;
     border-color: #ffffff
 }
 
@@ -3100,16 +3100,16 @@ fieldset:disabled .btn {
 
 .btn-spec:hover {
     color: #000;
-    background-color: #840000;
-    border-color: #ff4c4c
+    background-color: #46ff1e;
+    border-color: #1eaa00
 }
 
 .btn-check:focus+.btn-spec,
 .btn-spec:focus {
     color: #000;
-    background-color: #840000;
+    background-color: #46ff1e;
     border-color: #FFFFFF;
-    box-shadow: 0 0 0 .25rem rgb(132, 0, 0)
+    box-shadow: 0 0 0 .25rem rgb(55, 199, 24)
 }
 
 .btn-check:focus+.btn-primary,
@@ -8323,6 +8323,10 @@ fieldset:disabled .btn {
     color: #6c757d !important
 }
 
+.text-tertiary {
+    color: #1EAA00 !important
+}
+
 .text-success {
     color: #198754 !important
 }
@@ -8353,6 +8357,10 @@ fieldset:disabled .btn {
 
 .text-body {
     color: #666565 !important
+}
+
+.text-bodyspec {
+    color: #1EAA00 !important
 }
 
 .text-muted {
