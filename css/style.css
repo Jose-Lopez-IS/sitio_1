@@ -183,7 +183,7 @@
 */
 
 .hero-header {
-    background: linear-gradient(rgba(84, 200, 201, 0.8), rgba(255, 184, 191, 0.8)), url(../img/bg-hero.jpeg);
+    background: linear-gradient(rgba(84, 200, 201, 0.8), rgba(255, 184, 191, 0.7)), url(../img/bg-hero.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -191,6 +191,13 @@
 
 .hero-header img {
     animation: imgRotate 50s linear infinite;
+}
+
+.hero-franchise {
+    background: linear-gradient(rgba(84, 200, 201, 0.8), rgba(255, 184, 191, 0.7)), url(../img/bg-franchise.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .hero-build {
@@ -227,7 +234,7 @@
 }
 
 .hero-special {
-    background: linear-gradient(rgba(158, 201, 85, 0.8), rgba(3, 132, 223, 0.8)), url(../img/promo/bg-hero-spec.jpg);
+    background: linear-gradient(rgba(158, 201, 85, 0.8), rgba(3, 132, 223, 0.8)), url(../img/special/bg-hero-spec.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -253,6 +260,12 @@
     max-width: 99%;
     height: auto;
     animation: imgBumpTiny 2s ease-in-out infinite;
+}
+
+.img-fluid-franchise {
+    max-width: 99%;
+    height: auto;
+    animation: imgBumpTiny 7s ease-in-out infinite;
 }
 
 @keyframes imgRotate { 
